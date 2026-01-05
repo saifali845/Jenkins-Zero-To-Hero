@@ -1,6 +1,5 @@
 pipeline {
   agent any
-}
 
 environment {
   scannerHome = tool 'sonar'  
@@ -65,3 +64,4 @@ environment {
         }
     }
   }
+}
