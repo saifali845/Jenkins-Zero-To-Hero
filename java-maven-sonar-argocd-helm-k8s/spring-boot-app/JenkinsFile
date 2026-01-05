@@ -28,7 +28,7 @@ environment {
       steps {
         script {
             withSonarQubeEnv('sonar'){
-            sh 'cd java-maven-sonar-argocd-helm-k8s/spring-boot-app && mvn mvn org.sonarsource.scanner.maven:sonar-maven-plugin:sonar'
+            sh 'cd java-maven-sonar-argocd-helm-k8s/spring-boot-app && mvn org.sonarsource.scanner.maven:sonar-maven-plugin:sonar'
             }
         }
       }
